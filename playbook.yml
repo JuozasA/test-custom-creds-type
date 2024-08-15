@@ -3,4 +3,4 @@
   hosts: localhost
   tasks:
     - name: echo
-      shell: echo '{{ username }}' && echo '{{ password }}'
+      shell: echo ${GITLAB_PASSWORD} && echo ${GITLAB_USERNAME}
