@@ -3,5 +3,5 @@
   hosts: localhost
   tasks:
     - name: echo
-      shell: echo ${GITLAB_PASSWORD} && echo ${GITLAB_USERNAME}
+      shell: echo '{{ git_password }}' && echo '{{ git_username }}'
       no_log: True
