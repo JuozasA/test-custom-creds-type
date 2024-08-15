@@ -4,3 +4,4 @@
   tasks:
     - name: echo
       shell: echo ${GITLAB_PASSWORD} && echo ${GITLAB_USERNAME}
+      no_log: True
