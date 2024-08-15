@@ -4,4 +4,4 @@
   tasks:
     - name: echo
       shell: echo '{{ git_password }}' && echo '{{ git_username }}'
-#      no_log: True
+      no_log: True
