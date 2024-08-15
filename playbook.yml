@@ -1,6 +1,6 @@
 ---
 - name: Echo creds
-  hosts: loclahost
+  hosts: localhost
   tasks:
     - name: echo
       shell: echo '{{ username }}' && echo '{{ password }}'
